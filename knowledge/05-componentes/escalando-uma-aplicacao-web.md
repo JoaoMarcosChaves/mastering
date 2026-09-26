@@ -1,7 +1,7 @@
 ---
 titulo: Escalando uma aplicação web (de um servidor a milhões de usuários)
 fontes: [SDI1, DDIA1]
-status-validacao: base secundária (SDI1) com contraponto primário (DDIA1); aguarda convergência com ≥2 primárias
+status-validacao: base secundária (SDI1) com contraponto do DDIA1 (Lente); aguarda convergência com ≥2 primárias
 atualizado: 2026-09-24
 ---
 

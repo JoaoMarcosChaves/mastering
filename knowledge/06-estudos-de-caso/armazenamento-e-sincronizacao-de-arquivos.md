@@ -1,7 +1,7 @@
 ---
 titulo: "Estudo de caso: armazenamento e sincronização de arquivos (estilo Google Drive/Dropbox)"
 fontes: [SDI1, DDIA1]
-status-validacao: base secundária (SDI1) confrontada com primária (DDIA1); contém divergência registrada sobre consistência
+status-validacao: base secundária (SDI1) confrontada com o DDIA1 (Lente); contém divergência registrada sobre consistência
 atualizado: 2026-09-24
 ---
 

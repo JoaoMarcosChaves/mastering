@@ -1,7 +1,7 @@
 ---
 titulo: Transações e níveis de isolamento
 fontes: [DDIA1]
-status-validacao: base primária única (DDIA1); aguarda convergência com ≥2 primárias
+status-validacao: base DDIA1 (Lente); aguarda convergência com ≥2 primárias
 atualizado: 2026-09-24
 ---
 

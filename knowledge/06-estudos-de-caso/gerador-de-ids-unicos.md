@@ -1,7 +1,7 @@
 ---
 titulo: "Estudo de caso: gerador de IDs únicos em sistemas distribuídos"
 fontes: [SDI1, DDIA1]
-status-validacao: base secundária (SDI1) confrontada com primária (DDIA1); aguarda convergência com ≥2 primárias
+status-validacao: base secundária (SDI1) confrontada com o DDIA1 (Lente); aguarda convergência com ≥2 primárias
 atualizado: 2026-09-24
 ---
 

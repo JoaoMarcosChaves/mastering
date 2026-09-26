@@ -1,7 +1,7 @@
 ---
 titulo: Replicação
 fontes: [DDIA1, SDI1]
-status-validacao: base primária única (DDIA1) + secundária (SDI1); aguarda convergência com ≥2 primárias
+status-validacao: base DDIA1 (Lente) + secundária (SDI1); aguarda convergência com ≥2 primárias
 atualizado: 2026-09-24
 ---
 

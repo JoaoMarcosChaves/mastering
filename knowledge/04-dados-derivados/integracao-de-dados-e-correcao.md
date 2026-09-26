@@ -1,7 +1,7 @@
 ---
 titulo: Integração de dados, dados derivados, correção e ética
 fontes: [DDIA1]
-status-validacao: base primária única (DDIA1); aguarda convergência com ≥2 primárias. Parte do capítulo-fonte é opinião declarada do autor (sinalizada abaixo)
+status-validacao: base DDIA1 (Lente); aguarda convergência com ≥2 primárias. Parte do capítulo-fonte é opinião declarada do autor (sinalizada abaixo)
 atualizado: 2026-09-24
 ---
 

@@ -1,7 +1,7 @@
 ---
 titulo: "Estudo de caso: encurtador de URLs (o Projeto prático da trilha)"
 fontes: [SDI1, DDIA1]
-status-validacao: base secundária (SDI1) confrontada com primária (DDIA1); contém correções de cálculo e inconsistências registradas
+status-validacao: base secundária (SDI1) confrontada com o DDIA1 (Lente); contém correções de cálculo e inconsistências registradas
 atualizado: 2026-09-24
 ---
 
