@@ -1,7 +1,7 @@
 ---
 titulo: Cache
 fontes: [SDI1, DDIA1]
-status-validacao: síntese de secundária (SDI1, vários capítulos) com primária (DDIA1); aguarda convergência com ≥2 primárias
+status-validacao: síntese de secundária (SDI1, vários capítulos) com o DDIA1 (Lente); aguarda convergência com ≥2 primárias
 atualizado: 2026-09-24
 ---
 

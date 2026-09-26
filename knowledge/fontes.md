@@ -6,7 +6,7 @@ Os livros em si ficam **somente na máquina local** (`knowledge-resources/`, for
 
 | Chave | Obra | Edição | Papel na trilha |
 |---|---|---|---|
-| `DDIA1` | Martin Kleppmann, *Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems*. O'Reilly. | 1ª edição, março de 2017 | **Referência primária** |
+| `DDIA1` | Martin Kleppmann, *Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems*. O'Reilly. | 1ª edição, março de 2017 | **Lente** (ADR 0004): formula as perguntas e explica os mecanismos, mas não conta para a validação |
 | `SDI1` | Alex Xu, *System Design Interview – An Insider's Guide*, volume 1. Publicação independente. | 2ª edição, 2020 | **Referência secundária** (estrutura cenários; não substitui medições) |
 
 ## Observações sobre as edições

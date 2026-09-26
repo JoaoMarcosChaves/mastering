@@ -1,7 +1,7 @@
 ---
 titulo: "Estudo de caso: feed de notícias (timeline)"
 fontes: [SDI1, DDIA1]
-status-validacao: base secundária (SDI1) convergente com primária (DDIA1, exemplo do Twitter); contém divergência registrada
+status-validacao: base secundária (SDI1) convergente com o DDIA1 (Lente; exemplo do Twitter); contém divergência registrada
 atualizado: 2026-09-24
 ---
 

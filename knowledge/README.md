@@ -2,7 +2,7 @@
 
 Conhecimento de system design extraído da leitura integral de dois livros e reorganizado **por tema**, com aplicação ao mundo real, conexão com o Projeto prático da trilha (encurtador de links) e referência exata à origem de cada ideia.
 
-É a base de conteúdo a partir da qual o Núcleo validado da Trilha de System Design é produzido (ver `.red/CONTEXT.md`). **Estes arquivos ainda não são o Núcleo validado:** cada um declara seu status de validação no cabeçalho (ver "Status de validação" abaixo).
+É a base de conteúdo a partir da qual o Núcleo validado da Trilha de System Design é produzido (ver `.red/CONTEXT.md`). O Currículo, organizado por módulo e Unidade, fica em [`curriculo/`](../curriculo/README.md), e suas Unidades apontam para estes arquivos. **Estes arquivos ainda não são o Núcleo validado:** cada um declara seu status de validação no cabeçalho (ver "Status de validação" abaixo).
 
 ## Política de fontes e direitos autorais
 
@@ -20,10 +20,10 @@ Hoje:
 
 | Fonte | Papel | Conta para a convergência? |
 |---|---|---|
-| DDIA1 (Kleppmann, 1ª ed.) | Primária | Sim (1 de 2 necessárias) |
+| DDIA1 (Kleppmann, 1ª ed.) | Lente (ADR 0004) | Não: formula as perguntas e explica os mecanismos |
 | SDI1 (Alex Xu, vol. 1) | Secundária | Não: estrutura cenários e aponta divergências |
 
-Por isso cada arquivo traz `status-validacao: ... aguarda convergência com ≥2 primárias`. O próximo passo do processo é confrontar cada tema com as demais Referências primárias da lista de validação (Primer, Fowler, Newman, Google SRE, AWS Well-Architected, artigos do Kleppmann).
+Por isso cada arquivo traz `status-validacao: ... aguarda convergência com ≥2 primárias`. Nenhum arquivo tem ainda uma Referência primária que conte. O próximo passo é confrontar cada tema com Referências primárias de outros autores (Fowler, Newman, Google SRE, AWS Well-Architected e as que o Responsável pelo Currículo promover). Os artigos do Kleppmann, assim como o DDIA, servem de Lente.
 
 ## Estrutura de cada arquivo
 

@@ -1,7 +1,7 @@
 ---
 titulo: Consistência, ordenação e consenso (linearizabilidade, CAP, 2PC, Raft)
 fontes: [DDIA1, SDI1]
-status-validacao: base primária única (DDIA1) + secundária (SDI1); contém divergência registrada sobre CAP
+status-validacao: base DDIA1 (Lente) + secundária (SDI1); contém divergência registrada sobre CAP
 atualizado: 2026-09-24
 ---
 

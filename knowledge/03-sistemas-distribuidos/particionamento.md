@@ -1,7 +1,7 @@
 ---
 titulo: Particionamento (sharding) e hashing consistente
 fontes: [DDIA1, SDI1]
-status-validacao: base primária única (DDIA1) + secundária (SDI1); contém divergência registrada entre as fontes
+status-validacao: base DDIA1 (Lente) + secundária (SDI1); contém divergência registrada entre as fontes
 atualizado: 2026-09-24
 ---
 

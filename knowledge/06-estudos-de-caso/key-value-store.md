@@ -1,7 +1,7 @@
 ---
 titulo: "Estudo de caso: key-value store distribuído (estilo Dynamo)"
 fontes: [SDI1, DDIA1]
-status-validacao: base secundária (SDI1) confrontada com primária (DDIA1); contém divergências registradas
+status-validacao: base secundária (SDI1) confrontada com o DDIA1 (Lente); contém divergências registradas
 atualizado: 2026-09-24
 ---
 

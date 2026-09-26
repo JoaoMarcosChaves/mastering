@@ -1,7 +1,7 @@
 ---
 titulo: "Estudo de caso: plataforma de vídeo (upload, transcodificação, streaming)"
 fontes: [SDI1, DDIA1]
-status-validacao: base secundária (SDI1) + princípios primários (DDIA1); números de custo são exemplos didáticos de ~2020
+status-validacao: base secundária (SDI1) + princípios do DDIA1 (Lente); números de custo são exemplos didáticos de ~2020
 atualizado: 2026-09-24
 ---
 

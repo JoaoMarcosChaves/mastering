@@ -1,7 +1,7 @@
 ---
 titulo: "Estudo de caso: autocomplete de busca (top-k por prefixo)"
 fontes: [SDI1, DDIA1]
-status-validacao: base secundária (SDI1) + princípios primários (DDIA1); aguarda convergência com ≥2 primárias
+status-validacao: base secundária (SDI1) + princípios do DDIA1 (Lente); aguarda convergência com ≥2 primárias
 atualizado: 2026-09-24
 ---
 
