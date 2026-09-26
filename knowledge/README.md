@@ -23,7 +23,7 @@ Hoje:
 | DDIA1 (Kleppmann, 1ª ed.) | Lente (ADR 0004) | Não: formula as perguntas e explica os mecanismos |
 | SDI1 (Alex Xu, vol. 1) | Secundária | Não: estrutura cenários e aponta divergências |
 
-Por isso cada arquivo traz `status-validacao: ... aguarda convergência com ≥2 primárias`. Nenhum arquivo tem ainda uma Referência primária que conte. O próximo passo é confrontar cada tema com Referências primárias de outros autores (Fowler, Newman, Google SRE, AWS Well-Architected e as que o aprendiz promover). Os artigos do Kleppmann, assim como o DDIA, servem de Lente.
+Por isso cada arquivo traz `status-validacao: ... aguarda convergência com ≥2 primárias`. Nenhum arquivo tem ainda uma Referência primária que conte. O próximo passo é confrontar cada tema com Referências primárias de outros autores (Fowler, Newman, Google SRE, AWS Well-Architected e as que o Responsável pelo Currículo promover). Os artigos do Kleppmann, assim como o DDIA, servem de Lente.
 
 ## Estrutura de cada arquivo
 

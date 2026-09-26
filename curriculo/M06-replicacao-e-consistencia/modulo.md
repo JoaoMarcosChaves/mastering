@@ -57,6 +57,6 @@ Revisitar o key-value store do SDI1 (cap. 6) com a Lente: o que o quórum garant
 - **Cenários e números (SDI1, secundária):** cap. 6, via [key-value-store](../../knowledge/06-estudos-de-caso/key-value-store.md). Divergências já registradas: quórum e rótulos CP/AP.
 - **Lente (DDIA, não conta como prova):** caps. 5 e 9 e o artigo "Please stop calling databases CP or AP", via [replicacao](../../knowledge/03-sistemas-distribuidos/replicacao.md) e [consistencia-e-consenso](../../knowledge/03-sistemas-distribuidos/consistencia-e-consenso.md).
 - **Referências primárias da lista:** nenhuma trata o tema diretamente.
-- **Candidatas a Referência primária (o aprendiz decide):** Brewer, "CAP Twelve Years Later" (2012); Gilbert e Lynch, prova do teorema CAP (2002); DeCandia et al., "Dynamo" (2007); Abadi, PACELC (2012).
+- **Candidatas a Referência primária (o Responsável pelo Currículo decide):** Brewer, "CAP Twelve Years Later" (2012); Gilbert e Lynch, prova do teorema CAP (2002); DeCandia et al., "Dynamo" (2007); Abadi, PACELC (2012).
 - **Documentação oficial:** PostgreSQL (replicação por streaming).
 - **Pendência para a passada 2:** tema sem primária na lista atual.

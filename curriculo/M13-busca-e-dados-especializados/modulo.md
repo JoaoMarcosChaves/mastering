@@ -56,6 +56,6 @@ FB Post Search, Uber ou Top K.
 - **Cenários e números (SDI1, secundária):** cap. 13, via [autocomplete](../../knowledge/06-estudos-de-caso/autocomplete.md).
 - **Lente (DDIA, não conta como prova):** caps. 3 e 10–12, via [armazenamento-e-indices](../../knowledge/02-dados/armazenamento-e-indices.md), [processamento-em-lote](../../knowledge/04-dados-derivados/processamento-em-lote.md) e [integracao-de-dados-e-correcao](../../knowledge/04-dados-derivados/integracao-de-dados-e-correcao.md).
 - **Referências primárias da lista:** nenhuma trata o tema diretamente.
-- **Candidatas a Referência primária (o aprendiz decide):** Cormode e Muthukrishnan, count-min sketch (2005); Flajolet et al., HyperLogLog (2007).
+- **Candidatas a Referência primária (o Responsável pelo Currículo decide):** Cormode e Muthukrishnan, count-min sketch (2005); Flajolet et al., HyperLogLog (2007).
 - **Documentação oficial:** Elasticsearch ou OpenSearch; PostGIS; Redis (sorted sets e HyperLogLog).
 - **Pendência para a passada 2:** tema sem primária na lista atual.

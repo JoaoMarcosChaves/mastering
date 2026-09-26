@@ -56,5 +56,5 @@ O curador compõe um cenário: pagamento em várias etapas (reserva, cobrança, 
 - **Cenários e números (SDI1, secundária):** não trata do tema.
 - **Lente (DDIA, não conta como prova):** caps. 4, 9 e 12, via [codificacao-e-evolucao-de-esquema](../../knowledge/02-dados/codificacao-e-evolucao-de-esquema.md), [consistencia-e-consenso](../../knowledge/03-sistemas-distribuidos/consistencia-e-consenso.md) e [integracao-de-dados-e-correcao](../../knowledge/04-dados-derivados/integracao-de-dados-e-correcao.md).
 - **Referências primárias da lista:** Fowler, "MonolithFirst" e "MicroservicePrerequisites"; Newman, artigos públicos sobre microserviços (o livro *Building Microservices* fica fora do alcance do curador).
-- **Candidatas a Referência primária (o aprendiz decide):** Tilkov, "Don't start with a monolith" (contraponto); Garcia-Molina e Salem, "Sagas" (1987); Richardson, padrões saga e outbox em microservices.io.
+- **Candidatas a Referência primária (o Responsável pelo Currículo decide):** Tilkov, "Don't start with a monolith" (contraponto); Garcia-Molina e Salem, "Sagas" (1987); Richardson, padrões saga e outbox em microservices.io.
 - **Documentação oficial:** Temporal; Debezium.

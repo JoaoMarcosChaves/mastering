@@ -57,6 +57,6 @@ FB News Feed (fan-out e usuários com muitos seguidores) e Discord Message Stora
 - **Cenários e números (SDI1, secundária):** caps. 5, 6, 7 e 11, via [particionamento](../../knowledge/03-sistemas-distribuidos/particionamento.md), [key-value-store](../../knowledge/06-estudos-de-caso/key-value-store.md), [gerador-de-ids-unicos](../../knowledge/06-estudos-de-caso/gerador-de-ids-unicos.md) e [feed-de-noticias](../../knowledge/06-estudos-de-caso/feed-de-noticias.md). Divergência já registrada sobre hashing consistente e chaves quentes.
 - **Lente (DDIA, não conta como prova):** cap. 6, via [particionamento](../../knowledge/03-sistemas-distribuidos/particionamento.md).
 - **Referências primárias da lista:** nenhuma trata o tema diretamente.
-- **Candidatas a Referência primária (o aprendiz decide):** Karger et al., hashing consistente (1997); DeCandia et al., "Dynamo" (2007).
+- **Candidatas a Referência primária (o Responsável pelo Currículo decide):** Karger et al., hashing consistente (1997); DeCandia et al., "Dynamo" (2007).
 - **Documentação oficial:** Cassandra e DynamoDB (chave de partição).
 - **Pendência para a passada 2:** tema sem primária na lista atual.

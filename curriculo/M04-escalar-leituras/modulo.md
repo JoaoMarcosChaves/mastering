@@ -57,5 +57,5 @@ Ticketmaster na visualização de eventos durante um pico de acesso (outra face 
 - **Cenários e números (SDI1, secundária):** cap. 1, via [cache](../../knowledge/05-componentes/cache.md), [cdn](../../knowledge/05-componentes/cdn.md) e [escalando-uma-aplicacao-web](../../knowledge/05-componentes/escalando-uma-aplicacao-web.md). Divergência já registrada: "faça cache o máximo possível".
 - **Lente (DDIA, não conta como prova):** caps. 5 e 11–12, via [replicacao](../../knowledge/03-sistemas-distribuidos/replicacao.md) e [integracao-de-dados-e-correcao](../../knowledge/04-dados-derivados/integracao-de-dados-e-correcao.md).
 - **Referências primárias da lista:** AWS Well-Architected (pilar de eficiência de desempenho).
-- **Candidatas a Referência primária (o aprendiz decide):** Nishtala et al., "Scaling Memcache at Facebook" (NSDI 2013).
+- **Candidatas a Referência primária (o Responsável pelo Currículo decide):** Nishtala et al., "Scaling Memcache at Facebook" (NSDI 2013).
 - **Documentação oficial:** Redis (expiração e políticas de remoção); CDN escolhida (TTL, invalidação, custo).

@@ -54,4 +54,4 @@ Repetir cenários 2 a 4 semanas depois. É a evidência do Nível 4, que conta c
 - **Texto de base e pistas (Primer, índice):** Additional system design interview questions; Real world architectures; Company architectures; Company engineering blogs.
 - **Cenários e números (SDI1, secundária):** caps. 3 e 16 e os casos ainda não usados, via [metodo-de-design](../../knowledge/01-fundamentos/metodo-de-design.md) e [`knowledge/06-estudos-de-caso/`](../../knowledge/06-estudos-de-caso/).
 - **Lente (DDIA, não conta como prova):** cap. 12 e todas as perguntas L01–L12, como checklist de revisão.
-- **Referências primárias da lista:** os posts de engenharia originais por trás dos casos In the Wild, promovidos pelo aprendiz caso a caso.
+- **Referências primárias da lista:** os posts de engenharia originais por trás dos casos In the Wild, promovidos pelo Responsável pelo Currículo caso a caso.

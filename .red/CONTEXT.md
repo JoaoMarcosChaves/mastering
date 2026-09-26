@@ -27,12 +27,16 @@ Subagente, independente de quem escreveu o conteúdo, que verifica se o conteúd
 _Avoid_: revisor, auditor
 
 **Triagem**:
-Avaliação diagnóstica de conceitos de system design, ferramentas (terminal, git, Docker) e fundamentos de infraestrutura (redes, Linux) feita antes do primeiro módulo.
-_Avoid_: prova, teste de entrada
+Avaliação diagnóstica feita ao entrar na trilha. Estima o nível inicial de cada **Competência**, define o módulo de partida e confere os **Pré-requisitos**.
+_Avoid_: prova, teste de entrada, nivelamento
 
-**Nivelamento**:
-Conteúdo preparatório definido pela **Triagem** para cobrir lacunas antes do primeiro módulo.
-_Avoid_: Módulo 0
+**Pré-requisito**:
+Habilidade que a trilha assume e não ensina: terminal, git, Docker, TypeScript/Node e HTTP básico. A **Triagem** confere cada uma; se faltar, o App indica a documentação oficial.
+_Avoid_: Nivelamento, Módulo 0
+
+**Responsável pelo Currículo**:
+Pessoa que aprova o **Currículo**: revisa Unidades, decide quais fontes viram **Referências primárias** e aprova os pull requests dos agentes. É um papel distinto do aprendiz.
+_Avoid_: admin, dono, aprendiz (quando se trata de aprovar conteúdo)
 
 ### Progresso
 
@@ -59,7 +63,7 @@ Conteúdo da trilha cujos conceitos e trade-offs convergem em ≥2 **Referência
 _Avoid_: Conteúdo base, material oficial
 
 **Referência primária**:
-Fonte da lista de validação definida pelo aprendiz (Primer, Fowler, Newman, Google SRE, AWS Well-Architected e afins). A obra do Kleppmann não entra: é a **Lente**.
+Fonte da lista de validação definida pelo **Responsável pelo Currículo** (Primer, Fowler, Newman, Google SRE, AWS Well-Architected e afins). A obra do Kleppmann não entra: é a **Lente**.
 _Avoid_: fonte oficial, bibliografia
 
 **Lente**:
@@ -110,14 +114,15 @@ _Avoid_: Snapshot (no bootstrap, snapshot designa registros de medições, não 
 
 ## Relationships
 
-- A **Triagem** define zero ou mais itens de **Nivelamento** antes do primeiro módulo
+- A **Triagem** estima o nível inicial (0–2) de cada **Competência** e define o módulo de partida: o primeiro do núcleo com alguma **Competência** abaixo de 2
+- Quem começa adiante no núcleo parte do **Checkpoint de módulo** de referência do módulo anterior; os módulos pulados só ficam concluídos com **Prova de antecipação**
 - Cada módulo usa o **Projeto prático** a partir de exatamente um **Checkpoint de módulo**, e zero ou mais **Labs isolados**
 - O **Agente tutor** apenas ajusta ordem, repetições, rigor e variações de exercícios sobre o **Núcleo validado**; nunca cria conteúdo fora dele
 - O **Agente tutor** pode dispensar Pílulas e leituras, mas nunca o critério de **Módulo concluído**; acelerar exige **Prova de antecipação**
 - O **Currículo** é construído antes de a trilha começar; o **Agente curador** só o mantém, e o **Agente tutor** nunca produz conteúdo
 - A **Probabilidade de domínio** só sustenta níveis de competência 0–2; níveis 3–4 exigem evidência avaliada por rubrica
 - Toda **Unidade** nova ou alterada passa pelo **Agente validador** antes de entrar no **Núcleo validado**
-- O **Agente curador** propõe novas referências como **Referências secundárias**; só o aprendiz as promove a **Referências primárias**
+- O **Agente curador** propõe novas referências como **Referências secundárias**; só o **Responsável pelo Currículo** as promove a **Referências primárias**
 - **Referências secundárias** não contam para a convergência do **Núcleo validado**
 - Cada **Unidade** nasce no **Mapa de competências** e é validada por **Referências primárias**; o **Mapa de competências** define a estrutura, nunca a validação
 - Cada **Unidade** serve a uma ou mais **Competências** do seu módulo; o **Módulo concluído** exige nível ≥3 em todas as **Competências** do módulo

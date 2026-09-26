@@ -56,6 +56,6 @@ WhatsApp, FB Live Comments, Dropbox ou YouTube.
 - **Cenários e números (SDI1, secundária):** caps. 12, 14 e 15, via [chat](../../knowledge/06-estudos-de-caso/chat.md), [streaming-de-video](../../knowledge/06-estudos-de-caso/streaming-de-video.md) e [armazenamento-e-sincronizacao-de-arquivos](../../knowledge/06-estudos-de-caso/armazenamento-e-sincronizacao-de-arquivos.md).
 - **Lente (DDIA, não conta como prova):** caps. 5 e 12, via [replicacao](../../knowledge/03-sistemas-distribuidos/replicacao.md) e [integracao-de-dados-e-correcao](../../knowledge/04-dados-derivados/integracao-de-dados-e-correcao.md).
 - **Referências primárias da lista:** nenhuma trata o tema diretamente.
-- **Candidatas a Referência primária (o aprendiz decide):** post original do Figma sobre a tecnologia multiplayer; Shapiro et al., CRDTs (2011).
+- **Candidatas a Referência primária (o Responsável pelo Currículo decide):** post original do Figma sobre a tecnologia multiplayer; Shapiro et al., CRDTs (2011).
 - **Documentação oficial:** MDN (SSE e WebSocket); RFC 6455; S3 ou GCS (URLs pré-assinadas e envio em partes).
 - **Pendência para a passada 2:** tema sem primária na lista atual.

@@ -57,5 +57,5 @@ Ad Click Aggregator: o analytics do encurtador em escala muito maior.
 - **Cenários e números (SDI1, secundária):** caps. 9–10, via [sistema-de-notificacoes](../../knowledge/06-estudos-de-caso/sistema-de-notificacoes.md) e [web-crawler](../../knowledge/06-estudos-de-caso/web-crawler.md).
 - **Lente (DDIA, não conta como prova):** caps. 10–12, via [processamento-em-lote](../../knowledge/04-dados-derivados/processamento-em-lote.md), [processamento-de-fluxo](../../knowledge/04-dados-derivados/processamento-de-fluxo.md) e [integracao-de-dados-e-correcao](../../knowledge/04-dados-derivados/integracao-de-dados-e-correcao.md).
 - **Referências primárias da lista:** Fowler, "What do you mean by 'Event-Driven'?" (confirmar).
-- **Candidatas a Referência primária (o aprendiz decide):** Akidau et al., "The Dataflow Model" (VLDB 2015); Akidau, "Streaming 101" e "Streaming 102".
+- **Candidatas a Referência primária (o Responsável pelo Currículo decide):** Akidau et al., "The Dataflow Model" (VLDB 2015); Akidau, "Streaming 101" e "Streaming 102".
 - **Documentação oficial:** RabbitMQ (confiabilidade e confirmações); Kafka.

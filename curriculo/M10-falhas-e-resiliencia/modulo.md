@@ -57,5 +57,5 @@ Web Crawler: como ele continua trabalhando quando páginas, DNS e workers falham
 - **Cenários e números (SDI1, secundária):** caps. 6 e 9, via [key-value-store](../../knowledge/06-estudos-de-caso/key-value-store.md) e [web-crawler](../../knowledge/06-estudos-de-caso/web-crawler.md).
 - **Lente (DDIA, não conta como prova):** caps. 5, 8 e 9, via [falhas-em-sistemas-distribuidos](../../knowledge/03-sistemas-distribuidos/falhas-em-sistemas-distribuidos.md), [consistencia-e-consenso](../../knowledge/03-sistemas-distribuidos/consistencia-e-consenso.md) e [replicacao](../../knowledge/03-sistemas-distribuidos/replicacao.md).
 - **Referências primárias da lista:** Google SRE (cultura de postmortem; falhas em cascata); AWS Well-Architected (pilar de confiabilidade).
-- **Candidatas a Referência primária (o aprendiz decide):** Amazon Builders' Library, "Timeouts, retries, and backoff with jitter".
+- **Candidatas a Referência primária (o Responsável pelo Currículo decide):** Amazon Builders' Library, "Timeouts, retries, and backoff with jitter".
 - **Documentação oficial:** Toxiproxy; PostgreSQL (backup e restauração).

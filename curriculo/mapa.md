@@ -4,19 +4,18 @@ status: esqueleto
 
 # Mapa de competências
 
-A trilha tem 17 estações: a Triagem, o Nivelamento (só se a Triagem indicar), 10 módulos de núcleo, 4 aprofundamentos e um módulo de integração. A estrutura segue as unidades do Hello Interview, reescritas com nossas palavras ([ADR 0003](../.red/adr/0003-hello-interview-como-estrutura-base.md)). Os objetivos, as Competências e as Unidades de cada módulo ficam no `modulo.md` da pasta do módulo.
+A trilha tem 16 estações: a Triagem, 10 módulos de núcleo, 4 aprofundamentos e um módulo de integração. A estrutura segue as unidades do Hello Interview, reescritas com nossas palavras ([ADR 0003](../.red/adr/0003-hello-interview-como-estrutura-base.md)). Os objetivos, as Competências e as Unidades de cada módulo ficam no `modulo.md` da pasta do módulo.
 
 ## Trilhos
 
-- **Preparação:** Triagem e Nivelamento, antes do M01. Ver [`preparacao/`](preparacao/).
+- **Entrada:** a [Triagem](triagem.md) estima o nível de cada Competência e define o módulo de partida, que pode ser qualquer módulo do núcleo.
 - **Núcleo (M01–M10):** em sequência. Cada módulo começa do Checkpoint de módulo do anterior, e o Projeto prático (encurtador com analytics) evolui a cada etapa.
 - **Aprofundamentos (M11–M14):** em qualquer ordem, depois do M10. Usam o Projeto prático quando o tema cabe nele e Labs isolados quando não cabe.
 - **Integração (M15):** depois dos quatro aprofundamentos.
 
 ```mermaid
 flowchart LR
-  T[Triagem] -.-> N[Nivelamento] -.-> M01
-  T --> M01
+  T[Triagem] -. módulo de partida .-> M01
   M01 --> M02 --> M03 --> M04 --> M05 --> M06 --> M07 --> M08 --> M09 --> M10
   M10 --> M11 & M12 & M13 & M14
   M11 & M12 & M13 & M14 --> M15
@@ -26,8 +25,7 @@ flowchart LR
 
 | ID | Estação | Pergunta do módulo | Depende de | No Projeto prático |
 |---|---|---|---|---|
-| — | [Triagem](preparacao/triagem.md) | O que você já sabe, e o que precisa aprender antes do M01? | — | — |
-| — | [Nivelamento](preparacao/nivelamento.md) | Que ferramentas e fundamentos de infraestrutura faltam para os labs? | Triagem | VM na nuvem com acesso por Tailscale |
+| — | [Triagem](triagem.md) | Qual é o seu nível em cada Competência, e por onde você começa? | — | — |
 | M01 | [Fundamentos e método](M01-fundamentos-e-metodo/modulo.md) | Como transformo uma ideia em requisitos mensuráveis e numa primeira versão que funciona? | Triagem | API + PostgreSQL + base62, medida com k6 |
 | M02 | [Dados: modelagem, armazenamento e índices](M02-dados/modulo.md) | Como escolho o modelo de dados e os índices a partir de como os dados são lidos e escritos? | M01 | Esquema de cliques, índices, migração compatível |
 | M03 | [Concorrência e contenção](M03-concorrencia-e-contencao/modulo.md) | Como garanto uma regra de negócio quando muita gente age ao mesmo tempo? | M02 | Criação idempotente, teste concorrente |
@@ -43,6 +41,18 @@ flowchart LR
 | M13 | [Busca e dados especializados](M13-busca-e-dados-especializados/modulo.md) | Quando o banco principal não basta, com busca textual, geografia, séries temporais ou ranking, o que muda? | M10 | Ranking dos links mais clicados |
 | M14 | [Serviços, fluxos longos e evolução](M14-servicos-e-evolucao/modulo.md) | Quando dividir em serviços, e como coordenar uma operação que atravessa vários deles? | M10 | Decisão, com ADR, sobre separar o analytics |
 | M15 | [Integração: cenários mistos e entrevista](M15-integracao/modulo.md) | Consigo decidir uma arquitetura nova, sozinho e com tempo contado? | M11–M14 | Revisão dos ADRs do encurtador |
+
+## Pré-requisitos
+
+A trilha ensina system design, não ferramentas. Quem entra precisa do mínimo abaixo. A Triagem confere cada item; se algum faltar, o App indica a documentação oficial.
+
+| Pré-requisito | O mínimo esperado |
+|---|---|
+| Terminal | Navegar entre pastas, rodar comandos e ler a saída de erro. |
+| Git | Clonar um repositório, criar branch e fazer commit. |
+| Docker e Docker Compose | Subir, listar e derrubar serviços, e ver os logs. |
+| TypeScript ou JavaScript com Node.js | Escrever e rodar uma API HTTP simples (stack dos labs). |
+| HTTP | Fazer uma requisição e ler status, cabeçalhos e corpo. |
 
 ## O que todo módulo entrega
 

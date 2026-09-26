@@ -58,6 +58,6 @@ Ticketmaster (Hello Interview) e Shopify Inventory Reservations (In the Wild).
 - **Cenários e números (SDI1, secundária):** não cobre transações nem isolamento.
 - **Lente (DDIA, não conta como prova):** cap. 7, via [transacoes](../../knowledge/03-sistemas-distribuidos/transacoes.md).
 - **Referências primárias da lista:** nenhuma trata o tema diretamente.
-- **Candidatas a Referência primária (o aprendiz decide):** Berenson et al., "A Critique of ANSI SQL Isolation Levels" (1995); análises do Jepsen sobre bancos relacionais.
+- **Candidatas a Referência primária (o Responsável pelo Currículo decide):** Berenson et al., "A Critique of ANSI SQL Isolation Levels" (1995); análises do Jepsen sobre bancos relacionais.
 - **Documentação oficial:** PostgreSQL (Transaction Isolation, Explicit Locking).
 - **Pendência para a passada 2:** tema sem primária na lista atual.

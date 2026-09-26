@@ -57,6 +57,6 @@ O curador compõe um cenário: nenhum problema gratuito do Hello Interview é ce
 - **Cenários e números (SDI1, secundária):** pouco além do modelo de dados do cap. 8, via [encurtador-de-urls](../../knowledge/06-estudos-de-caso/encurtador-de-urls.md).
 - **Lente (DDIA, não conta como prova):** caps. 2–4, via [modelos-de-dados-e-consulta](../../knowledge/02-dados/modelos-de-dados-e-consulta.md), [armazenamento-e-indices](../../knowledge/02-dados/armazenamento-e-indices.md) e [codificacao-e-evolucao-de-esquema](../../knowledge/02-dados/codificacao-e-evolucao-de-esquema.md).
 - **Referências primárias da lista:** Fowler, artigos sobre evolução de bancos de dados e persistência poliglota (confirmar quais).
-- **Candidatas a Referência primária (o aprendiz decide):** Markus Winand, *Use The Index, Luke* (índices em SQL).
+- **Candidatas a Referência primária (o Responsável pelo Currículo decide):** Markus Winand, *Use The Index, Luke* (índices em SQL).
 - **Documentação oficial:** PostgreSQL (índices, EXPLAIN); Protocol Buffers.
 - **Pendência para a passada 2:** a lista atual quase não tem primárias para modelos e índices.

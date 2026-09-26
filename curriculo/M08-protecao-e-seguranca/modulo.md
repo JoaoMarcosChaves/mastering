@@ -57,5 +57,5 @@ Comparar o Distributed Rate Limiter do Hello Interview com o cap. 4 do SDI1.
 - **Cenários e números (SDI1, secundária):** cap. 4, via [rate-limiter](../../knowledge/06-estudos-de-caso/rate-limiter.md).
 - **Lente (DDIA, não conta como prova):** caps. 7 e 12, via [transacoes](../../knowledge/03-sistemas-distribuidos/transacoes.md) e [integracao-de-dados-e-correcao](../../knowledge/04-dados-derivados/integracao-de-dados-e-correcao.md).
 - **Referências primárias da lista:** AWS Well-Architected (pilar de segurança).
-- **Candidatas a Referência primária (o aprendiz decide):** OWASP Top 10 e OWASP API Security Top 10.
+- **Candidatas a Referência primária (o Responsável pelo Currículo decide):** OWASP Top 10 e OWASP API Security Top 10.
 - **Documentação oficial:** Redis (operações atômicas e scripts); Node.js (TLS e criptografia).

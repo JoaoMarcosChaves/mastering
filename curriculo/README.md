@@ -10,7 +10,7 @@ curriculo/
   lente.md             princípios da trilha e perguntas da Lente (L01–L12)
   mapa.md              Mapa de competências: estações, ordem, dependências e objetivos
   _modelo-unidade.md   formato de uma Unidade completa
-  preparacao/          Triagem e Nivelamento
+  triagem.md           como a Triagem posiciona o aprendiz
   MNN-slug/
     modulo.md          objetivo, Competências, Unidades, lab, transferência e fontes de partida
     UN-slug.md         uma Unidade completa (criada na passada 2)
@@ -30,7 +30,7 @@ Todo `modulo.md` e toda Unidade têm um campo `status` no cabeçalho:
 |---|---|---|
 | `esqueleto` | Objetivo e posição no Mapa definidos, sem conteúdo | Quem compõe conteúdo |
 | `rascunho` | Conteúdo escrito, aguardando o Agente validador | Quem compõe e quem valida |
-| `validado` | Conferido pelo Agente validador e revisado pelo aprendiz | Todos, inclusive o Agente tutor |
+| `validado` | Conferido pelo Agente validador e revisado pelo Responsável pelo Currículo | Todos, inclusive o Agente tutor |
 
 O Agente tutor só gera Pílulas e revisões a partir de Unidades `validado`.
 
@@ -45,11 +45,12 @@ O Agente tutor só gera Pílulas e revisões a partir de Unidades `validado`.
   5. As perguntas da Lente listadas na Unidade estão respondidas.
   6. Nenhum trecho foi copiado do Hello Interview, do SDI1 ou do DDIA. Texto do Primer só entra adaptado e com crédito (CC BY 4.0).
 - **Gerar Pílulas ou revisões:** parta das Sementes de exercício de uma Unidade `validado`. Use a pergunta da Lente para mostrar a consequência de cada opção. Registre qual Competência cada Pílula mede.
-- **Manter o Currículo (Agente curador):** antes de o aprendiz começar um módulo, reconfira cada item de "Conteúdo volátil" das Unidades desse módulo na documentação oficial e atualize a data. Mudança de conceito ou de trade-off volta para `rascunho` e passa de novo pelo validador.
+- **Manter o Currículo (Agente curador):** antes de um aprendiz começar um módulo, reconfira cada item de "Conteúdo volátil" das Unidades desse módulo na documentação oficial e atualize a data. Mudança de conceito ou de trade-off volta para `rascunho` e passa de novo pelo validador.
 
 ## Por que o Currículo tem este formato
 
 - O Hello Interview dá a estrutura; Primer, SDI1 e DDIA complementam: [ADR 0003](../.red/adr/0003-hello-interview-como-estrutura-base.md).
 - O DDIA é Lente, não prova: [ADR 0004](../.red/adr/0004-ddia-como-lente-e-nao-como-prova.md).
 - O Currículo é construído antes, e o curador só o mantém: [ADR 0005](../.red/adr/0005-curriculo-construido-antes-da-trilha.md).
+- A trilha serve a qualquer aprendiz: a Triagem posiciona, não há Nivelamento, e ferramentas são Pré-requisitos: [ADR 0006](../.red/adr/0006-triagem-posiciona-o-aprendiz.md).
 - A síntese por tema dos livros fica em [`knowledge/`](../knowledge/README.md); as Unidades apontam para lá.
